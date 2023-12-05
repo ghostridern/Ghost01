@@ -14,11 +14,11 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","its_dev_telegram")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "AloneXMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "MissAliciaBot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Alone Music")
+BOT_NAME = getenv("BOT_NAME" , "Alicia Music")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "AloneXHelper")
+ASSUSERNAME = getenv("ASSUSERNAME" , "MassQueen")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -39,15 +39,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Noobxcoders/Alicia-Music",
+    "https://t.me/Our_Groupps",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneXBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AlonesHeaven")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Our_Groupps")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AliciaNetwork")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
