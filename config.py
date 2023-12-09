@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","Hopeless_Boy")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Hopless_Boy")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "MissAliciaBot")
 # Don't Add style font 
@@ -39,14 +39,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/hopeless_boy",
+    "https://t.me/hopless_boy",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hopeless_boy")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hopless_boy")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AliciaNetwork")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
