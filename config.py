@@ -12,13 +12,13 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","Hopless_Boy")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Pavan_72826")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "MissAliciaBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Pvs_music_bot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Alicia Music")
+BOT_NAME = getenv("BOT_NAME" , "Pvs_music_bot")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "MassQueen")
+ASSUSERNAME = getenv("ASSUSERNAME" , "assaction")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -29,7 +29,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6536952975))
+OWNER_ID = int(getenv("OWNER_ID", 6568808907))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,15 +39,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/hopless_boy",
+    "https://t.me/pvs_movies_updates",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hopless_boy")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AliciaNetwork")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/pvs_movies_updates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Telugu_movies_request_grp")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
